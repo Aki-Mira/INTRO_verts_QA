@@ -16,6 +16,13 @@ public class Main {
                 .map(Map.Entry::getKey) // пересобираем map , где вместо key and value оставляем только key
                 .findFirst().orElse(0); // возвращаем первое значение, которое есть в map в формате Optional, но последним действием превращаем его в int (нужно по условию задачи)
     }
+//public static int findIt(int[] A) {
+//    int xor = 0;
+//    for (int i = 0; i < A.length; i++) {
+//        xor ^= A[i];
+//    }
+//    return xor;
+//}
 
     public static void main(String[] args) {
         int[] array = {20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5};
