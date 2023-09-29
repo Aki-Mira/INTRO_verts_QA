@@ -23,6 +23,12 @@ public class Main {
 //    }
 //    return xor;
 //}
+//I think this is what it works:
+//
+//    A^A = 0
+//    A^0 = A
+//    A^B^C^A^B = A^A^B^B^C = 0^0^C = C
+
 
     public static void main(String[] args) {
         int[] array = {20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5};
